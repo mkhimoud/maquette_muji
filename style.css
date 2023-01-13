@@ -1,375 +1,396 @@
-@media  screen and  (max-width: 1118px) and (min-width:924px) {
+
+@media only screen and  (max-width: 626px) and (min-width: 412px) {
+  /* For mobile : */
+  body {
+    background-color: rgb(93, 185, 210);
+  } 
+}
+
+@media  screen and  (max-width: 750px) and (min-width:600px) {
+  /* For tablets */
   body {
     background-color: rgb(161, 115, 75);
-  }
-  .header__menu_list nav li {
-    padding-left: 40%;
-    text-align: center;   
-  }
-
-  .icon{
-  margin-left: 0%;
-  margin-top: 15px;
-  cursor: pointer;
-  }
-
-  .icon_search {
-    
-    margin-right: 10%; 
   }  
 }
-body{
+
+
+.text_style{
   font-family: Arial, Helvetica, sans-serif;
 }
 .logo {
-    margin-right: 130px;
-    margin-top: 20px;
-  }
-  .nav-item{
-    margin-top: 10px;
-    color: black;
-  }
-  .icon {
-    margin-left: 100px;
-    margin-top: 20px;
-    cursor: pointer;
-    color: black;
-    display: flex;
-  }
-  .icon_search {
-    margin-right: 40px;
-  }
-  .section{
-    padding-top: 20px;
-  }
-  .image_Comfortable {
-    width: 600px;
-    height: 420px;
-    background-image: url(./images/806bf5a329ec8a12e5b7f29488cea4cb.jpg);
-    background-size: cover;
-    background-color: rgba(46, 31, 130, 0.7);
-    padding: 0px;
-  }
-  .image_MUJISkincare {
-    width: 160px;
-    height: 420px;
-    background-image: url(./images/index.jpeg);
-    background-size: cover;
-    margin-left: 20px;
-    
-  }
-  .image_KitchenDining {
-    width:  150px;
-    height: 220px;
-    background-image: url(./images/aeee6141d953067f9fe984e2139be108--muji-online-store-glass-vessel.jpg);
-    background-size: cover;
-    margin: 1%;
-  }
-  .image_Fashion {
-    width: 150px;
-    height: 170px;
-    background-image: url(./images/21127925_500_A.jpg);
-    background-size: cover;
-    margin: 1%;
-  }
-  .c2 {
-    background-color: rgba(190, 236, 134, 0.422);
-    background-size: cover;
-    width: 190px;
-    height: 420px;
-    padding: 0px;
-  }
-  .c3 {
-    background-color: rgba(13, 14, 12, 0.527);
-    padding: 20px;
-    width: 190px;
-    height:210px;
-  }
-  .c4 {
-    background-color: rgba(112, 113, 111, 0.47);
-    width: 190px;
-    height:180px;
-  }
-  .h3 {
-    padding-top: 350px;
-    padding-left: 20px;
-    font-size:medium;
-  }
-  .h2 {
-    padding-top: 150px;
-    padding-left: 50px;
-    font-size:medium;
-  }
-  .section2{
-    margin-left: 60px;
-    margin-top: 10px;
-    
-  }
-  .h4{
-    padding-top: 70px;
-    padding-left: 30px;
-  }
-  .slide_color{
-    background-color:#F0F0F0;
-    background-size: cover;
-    margin: 10px;
-    width: 155px;
-    height: 200px;
-  }
-  .slider{
-    margin-left: 40px;
-  }
-  .image_Electronics{
-    width: 130px;
-    height: 150px;
-    background-image: url(./images/4549738886037_400.jpg);
-    background-size: cover;
-    margin: 1%;
-    margin-left: 10px;
-  }
+  margin-right: 400px;
+  margin-top: 20px;
+}
+.nav-item{
+  margin-top: 10px;
+  color: black;
+}
+.icon {
+  margin-left: 100px;
+  margin-top: 20px;
+  cursor: pointer;
+  color: black;
+  display: flex;
+}
+.icon_search {
+  margin-right: 40px;
+}
+.section{
+  padding-top: 20px;
+  margin-left: 80px;
+}
+.image_Comfortable {
+  width: 650px;
+  height: 420px;
+  background-image: url(./images/806bf5a329ec8a12e5b7f29488cea4cb.jpg);
+  background-size: cover;
+  background-color: rgba(46, 31, 130, 0.7);
+}
+.image_MUJISkincare {
+  width: 190px;
+  height: 420px;
+  background-image: url(./images/index.jpeg);
+  background-size: cover;
+  margin-left: 0px;
+}
+.image_KitchenDining {
+  width:  150px;
+  height: 220px;
+  background-image: url(./images/aeee6141d953067f9fe984e2139be108--muji-online-store-glass-vessel.jpg);
+  background-size: cover;
+}
+.image_Fashion {
+  width: 150px;
+  height: 170px;
+  background-image: url(./images/21127925_500_A.jpg);
+  background-size: cover;
+}
+.c2 {
+  background-color: rgba(190, 236, 134, 0.422);
+  background-size: cover;
+  width: 220px;
+  height: 420px; 
+}
+.c3 {
+  background-color: rgba(13, 14, 12, 0.527);
+  width: 190px;
+  height:210px;
+}
+.c4 {
+  background-color: rgba(112, 113, 111, 0.47);
+  width: 190px;
+  height:180px;
+}
+.h3 {
+  padding-top: 350px;
+  padding-left: 0px;
+  font-size:medium;
+}
+.h2 {
+  padding-top: 150px;
+  color: white;
+  font-size:medium;
+}
+.section2{
+  margin-left: 0px;
+  margin-top: 0px;
+  padding-right: 0px;
   
-  .image_Furniture{
-    width: 130px;
-    height: 100px;
-    background-image: url(./images/117197-60429aae54a6b-604299e260468-canape-.jpg);
-    background-size: cover;
-    margin: 1%;
-    margin-left: 10px;
-  }
-  .image_Kitchendining{
-    width: 120px;
-    height: 100px;
-    background-image: url(./images/61NL1V2zFtL.jpg);
-    background-size: cover;
-    margin-left: 10px;
-  }
-  .image_textiles{
-    width: 130px;
-    height: 100px;
-    background-image: url(./images/61YyGHPLyQS._AC_SL1500_.jpg);
-    background-size: cover;
-    margin: 1%;
-    margin-left: 10px;
-  }
-  .image_accessories{
-    width: 130px;
-    height: 130px;
-    background-image: url(./images/montre-muji-homme.jpg);
-    background-size: cover;
-    margin: 1%;
-    margin-left: 10px;
-  }
-  .p {
-    padding-top: 150px;
-    padding-left: 30px;
-    padding-right: 40px;
-    padding-bottom: 0px; 
-  }
-  .slide_btn{
-    display: flex;
-  }
-  .slider_btn{
-    margin-left: 280px;
-    margin-right: 20px;
-  }
+}
+.h4{
+  padding-top: 70px;
+  padding-left: 30px;
+}
+.slide_color{
+  background-color:#F0F0F0;
+  background-size: cover;
+  width: 150px;
+  height: 180px;
+}
+.slider{
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.image_Electronics{
+  width: 130px;
+  height: 150px;
+  background-image: url(./images/4549738886037_400.jpg);
+  background-size: cover;
+  margin-left: 10px;
+}
 
-  .button-left, .button-right{
-    background-color: #191919;
-    color: white;
-    padding: 30px;
-    padding-left: 30px;
-    padding-right:30px ;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 18px; 
-    border:none;
-  }
-  .button-left:hover, .button-right:hover, .button-slider-text:hover {
-    background-color: rgba(114, 74, 15, 0.8);
-  }
-  .slider_point{
-    padding-top: 33px;  
-  }
-  .point {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: black;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-    margin:10px;
-  }
-  .slider_text{
-    padding-top: 40px;
-    padding-left: 70px;
-  }
-  .button-slider-text{
-    background-color:transparent;
-    color: black;
-    padding: 30px;
-    padding-left: 40px;
-    padding-right:40px ;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 28px; 
-    border:none;
-    border-radius: 40px;
-  }
-  .menu {
-    margin-top: 60px;
-    margin-left: 130px;
-    margin-right: 90px;
-  }
-  .menu-text {
-    background-color: #f9f8f4;
-    display: flex;
-    padding-left: 80px;
-  }
-  .text {
-    margin-left: 0px;
-    margin-top: 80px;
-    color: black;
-    text-align: justify;
-  }
+.image_Furniture{
+  width: 130px;
+  height: 100px;
+  background-image: url(./images/117197-60429aae54a6b-604299e260468-canape-.jpg);
+  background-size: cover;
+  margin-left: 10px;
+}
+.image_Kitchendining{
+  width: 120px;
+  height: 100px;
+  background-image: url(./images/61NL1V2zFtL.jpg);
+  background-size: cover;
+  margin-left: 10px;
+}
+.image_textiles{
+  width: 130px;
+  height: 100px;
+  background-image: url(./images/61YyGHPLyQS._AC_SL1500_.jpg);
+  background-size: cover;
+  margin-left: 10px;
+}
+.image_accessories{
+  width: 130px;
+  height: 130px;
+  background-image: url(./images/montre-muji-homme.jpg);
+  background-size: cover;
+  margin-left: 10px;
+}
+.p {
+  padding-top: 150px;
+  padding-left: 30px;
+  padding-right: 40px;
+  padding-bottom: 0px; 
+}
+.slide_btn{
+  display: flex;
+}
+.slider_btn{
+  margin-left: 285px;
+  margin-right: 20px;
+}
+
+.button-left, .button-right{
+  background-color: #191919;
+  color: white;
+  padding: 30px;
+  padding-left: 30px;
+  padding-right:30px ;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px; 
+  border:none;
+}
+.button-left:hover, .button-right:hover, .button-slider-text:hover {
+  background-color: rgba(114, 74, 15, 0.8);
+}
+.slider_point{
+  padding-top: 33px;  
+}
+.point {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0px 2px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin:10px;
+  margin-left: 25px;
+}
+.slider_text{
+  padding-top: 40px;
+  padding-left: 70px;
+}
+.button-slider-text{
+  background-color:transparent;
+  color: black;
+  padding: 30px;
+  padding-left: 40px;
+  padding-right:40px ;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 28px; 
+  border:none;
+  border-radius: 40px;
+}
+.menu {
+  margin-top: 60px;
+  margin-left: 90px;
+  margin-right: 70px;
   
-  .menu_button {
-    margin-top: 20px;
-    border: none;
-    cursor: pointer;
-    margin-bottom: 20%;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: black;
-    padding: 1%;
-    padding-left: 2%;
-    padding-right: 2%;
-    color: white;
-  }
+}
+.menu-text {
+  background-color: #f9f8f4;
+  display: flex;
+  padding-left: 80px;
+}
+.text {
+  margin-left: 0px;
+  margin-top: 60px;
+  color: black;
+  text-align: justify;
+}
+.h1{
+  font-size:200%;
+}
+.p1{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.menu_button {
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20%;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: black;
+  padding: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: white;
+}
+
+.menu_image {
+  padding-top: 20px;
+  padding-left: 150px;
+  padding-bottom: 20px;
+}
+
+.menu_shop {
+  margin-top: 40px;
+  margin-right: 90px;
+}
+.menu_shop-text2 {
+  background-color: #DBF3FF;
+  display: flex;
+  margin-left: 100px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+.menu_shop_image2 {
+  padding-top: 80px;
+  padding-left: 80px;
+}
+.text2 {
+  size: 10px;
+  margin-left: 140px;
+  margin-top: 80px;
+  color: black;
+  text-align: justify;
+}
+
+.menu_button:hover{
+  background-color: #c48b10;
+}
+.footer{
+  background-color: #191919;
+  color: white;
+  text-align: center;
+  margin-top: 70px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
   
-  .menu_image {
-    padding-top: 20px;
-    padding-left: 150px;
-  }
-  .pre-btn,
-.nxt-btn {
-    margin-left: 50px;
-    margin-right: 50px;
-    border: none;
-    width: auto;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
-    cursor: pointer;
-    z-index: 8;
+.footer_menu_list {
+  display: flex;
+  background-color: black;
+  padding-left: 350px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  
+}
+.footer_menu_list nav ul {
+  list-style-type: none;
+}
+.footer_menu_list nav a:hover {
+  color: #966f06;
+}
+.footer_menu_list nav li {
+  float: left; 
+  text-align: center;
+}
+.footer_menu_list  nav a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.footer_text{
+  background-color:black;
+  color: rgb(181, 178, 178);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 13px;
+}
+.footer_button{
+  
+  cursor: pointer;
+  background-color: rgb(137, 135, 135);
+  border: none;
+  padding: 2px;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: black;
+}
+.footer_button:hover {
+  background-color: rgba(210, 210, 29, 0.8);
+}
+.footer_email{
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.product {
+  position: relative;
+  padding: 20px;
+  margin-top: 40px;
 }
 .product-category {
-    padding: 0 100px;
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 10px;  
-  }
-  .product-container {
-    margin-left: 70px;
-    margin-right: 10px;
-  }
-  .product {
-    position: relative;
-    padding: 20px;
-  }
-  .product-image {
-    height: 210px;
-    margin: 20px; 
-  }
-  .product_point{
-    margin-top: 150px;
-    margin-left: 500px;  
-  }
-  .menu_shop {
-    margin-top: 40px;
-    margin-right: 90px;
-  }
-  .menu_shop-text2 {
-    background-color: #DBF3FF;
-    display: flex;
-    margin-left: 100px;
-    padding-right: 30px;
-    padding-bottom: 20px;
-  }
-  .menu_shop_image2 {
-    padding-top: 80px;
-    padding-left: 80px;
-  }
-  .text2 {
-    size: 10px;
-    margin-left: 140px;
-    margin-top: 80px;
-    color: black;
-    text-align: justify;
-  }
- 
-      .menu_button:hover{
-        background-color: #c48b10;
-      }
-      .footer{
-        background-color: #191919;
-        color: white;
-        text-align: center;
-        margin-top: 70px;
-        padding-top: 30px;
-        padding-bottom: 60px;
-      }
-       
-      .footer_menu_list {
-        display: flex;
-        background-color: black;
-        padding-left: 300px;
-        padding-top: 10px;
-        padding-bottom: 20px;
-      }
-      .footer_menu_list nav ul {
-        list-style-type: none;
-      }
-      .footer_menu_list nav a:hover {
-        color: #966f06;
-      }
-      .footer_menu_list nav li {
-        float: left; 
-        text-align: center;
-      }
-      .footer_menu_list  nav a {
-        padding: 10px;
-        text-decoration: none;
-        color: white;
-        font-size: 14px;
-      }
-      
-      .footer_text{
-        background-color:black;
-        color: rgb(181, 178, 178);
-        text-align: center;
-        padding-bottom: 20px;
-        font-size: 13px;
-      }
-      .footer_button{
-        
-        cursor: pointer;
-        background-color: rgb(137, 135, 135);
-        border: none;
-        padding: 2px;
-        padding-left: 2%;
-        padding-right: 2%;
-        color: black;
-      }
-      .footer_button:hover {
-        background-color: rgba(210, 210, 29, 0.8);
-      }
-      .footer_email{
-        padding-left: 2%;
-        padding-right: 2%;
-      }
+  padding: 0 100px;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;  
+}
+.pre-btn,
+.nxt-btn {
+  margin-left: 50px;
+  margin-right: 50px;
+  border: none;
+  width: auto;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+  cursor: pointer;
+  z-index: 8;
+}
+
+.pre-btn {
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.nxt-btn {
+  right: 0;
+}
+
+.pre-btn img,
+.nxt-btn img {
+  opacity: 0.4;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img {
+  opacity: 1;
+}
+
+
+.product-image {
+  height: 210px;
+  margin: 20px; 
+  margin-top: 40px;
+}
+
+
+.product_point{
+  margin-top: 80px;
+  margin-left: 500px;  
+}
