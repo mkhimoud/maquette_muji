@@ -1,76 +1,45 @@
-
-@media only screen and  (max-width: 626px) and (min-width: 412px) {
-  /* For mobile : */
-  body {
-    background-color: rgb(93, 185, 210);
-  } 
-}
-
-@media  screen and  (max-width: 750px) and (min-width:600px) {
-  /* For tablets */
-  body {
-    background-color: rgb(161, 115, 75);
-  }  
-}
-
-
 .text_style{
   font-family: Arial, Helvetica, sans-serif;
 }
+.header{
+  padding-top: 30px;
+}
 .logo {
-  margin-right: 400px;
-  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 200px;
   font-weight: 900;
 }
-.nav-item{
-  margin-top: 10px;
-  color: black;
-}
 .icon {
-  margin-left: 100px;
+  margin-right: 60px;
   margin-top: 20px;
   cursor: pointer;
-  color: black;
   display: flex;
 }
 .icon_search {
   margin-right: 40px;
 }
 .section{
-  padding-top: 20px;
-  margin-left: 80px;
+  padding-top: 40px;
 }
 .image_Comfortable {
-  width: 650px;
-  height: 420px;
-  background-image: url(./images/806bf5a329ec8a12e5b7f29488cea4cb.jpg);
   background-size: cover;
   background-color: rgba(46, 31, 130, 0.7);
 }
 .image_MUJISkincare {
-  width: 190px;
-  height: 420px;
-  background-image: url(./images/index.jpeg);
   background-size: cover;
   margin-left: 0px;
 }
 .image_KitchenDining {
-  width:  150px;
-  height: 220px;
-  background-image: url(./images/aeee6141d953067f9fe984e2139be108--muji-online-store-glass-vessel.jpg);
   background-size: cover;
 }
 .image_Fashion {
-  width: 150px;
-  height: 170px;
-  background-image: url(./images/21127925_500_A.jpg);
   background-size: cover;
 }
 .c2 {
   background-color: rgba(190, 236, 134, 0.422);
   background-size: cover;
-  width: 220px;
-  height: 420px; 
+  width: 200px;
+  height: 400px; 
 }
 .c3 {
   background-color: rgba(13, 14, 12, 0.527);
@@ -83,29 +52,23 @@
   height:180px;
 }
 .h3 {
-  padding-top: 350px;
-  padding-left: 0px;
   font-size:large;
   font-weight: 700;
 }
 .h2 {
-  padding-top: 150px;
+  padding-top: 0px;
   color: white;
   font-size:large;
   font-weight: 700;
 }
-.section2{
-  margin-left: 0px;
-  margin-top: 0px;
-  padding-right: 0px;
-  
-}
+
 .h4{
   padding-top: 70px;
   padding-left: 30px;
   font-weight: 700;
 }
 .slide_color{
+  padding-right: 0px;
   background-color:#F0F0F0;
   background-size: cover;
   width: 150px;
@@ -116,47 +79,32 @@
   margin-left: 40px;
 }
 .image_Electronics{
-  width: 130px;
-  height: 150px;
-  background-image: url(./images/4549738886037_400.jpg);
+ 
   background-size: cover;
   margin-left: 10px;
 }
 
 .image_Furniture{
-  width: 130px;
-  height: 100px;
-  background-image: url(./images/117197-60429aae54a6b-604299e260468-canape-.jpg);
+  
   background-size: cover;
   margin-left: 10px;
 }
 .image_Kitchendining{
-  width: 120px;
-  height: 100px;
-  background-image: url(./images/61NL1V2zFtL.jpg);
+
   background-size: cover;
   margin-left: 10px;
 }
 .image_textiles{
-  width: 130px;
-  height: 100px;
-  background-image: url(./images/61YyGHPLyQS._AC_SL1500_.jpg);
+ 
   background-size: cover;
   margin-left: 10px;
 }
 .image_accessories{
-  width: 130px;
-  height: 130px;
-  background-image: url(./images/montre-muji-homme.jpg);
+  
   background-size: cover;
   margin-left: 10px;
 }
-.p {
-  padding-top: 150px;
-  padding-left: 30px;
-  padding-right: 40px;
-  padding-bottom: 0px; 
-}
+
 .slide_btn{
   display: flex;
 }
@@ -211,12 +159,7 @@
   border:none;
   border-radius: 40px;
 }
-.menu {
-  margin-top: 60px;
-  margin-left: 90px;
-  margin-right: 70px;
-  
-}
+
 .titre_menushop{
   font-size: large;
   font-weight: 700;
@@ -224,18 +167,14 @@
 }
 .menu-text {
   background-color: #f9f8f4;
-  display: flex;
-  padding-left: 80px;
+  
 }
-.text {
-  margin-left: 0px;
-  margin-top: 60px;
-  color: black;
-  text-align: justify;
-}
+
 .h1{
+  padding-top: 40px;
   font-size:200%;
   font-weight: 700;
+  
 }
 .p1{
   padding-top: 20px;
@@ -268,21 +207,18 @@
 }
 .menu_shop-text2 {
   background-color: #DBF3FF;
-  display: flex;
-  margin-left: 100px;
-  padding-right: 30px;
   padding-bottom: 20px;
 }
 .menu_shop_image2 {
-  padding-top: 80px;
-  padding-left: 80px;
+  padding-top: 20px;
 }
 .text2 {
   size: 10px;
-  margin-left: 140px;
-  margin-top: 80px;
+  margin-left: 80px;
+  margin-top: 40px;
   color: black;
   text-align: justify;
+  
 }
 
 .menu_button:hover{
@@ -297,62 +233,21 @@
   padding-bottom: 60px;
 }
   
-.footer_menu_list {
-  display: flex;
-  background-color: black;
-  padding-left: 350px;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  
-}
-.footer_menu_list nav ul {
-  list-style-type: none;
-}
-.footer_menu_list nav a:hover {
-  color: #966f06;
-}
-.footer_menu_list nav li {
-  float: left; 
-  text-align: center;
-}
-.footer_menu_list  nav a {
-  padding: 10px;
-  text-decoration: none;
-  color: white;
-  font-size: 14px;
-}
-
 .footer_text{
   background-color:black;
   color: rgb(181, 178, 178);
-  text-align: center;
-  padding-bottom: 20px;
-  font-size: 13px;
-}
-.footer_button{
   
-  cursor: pointer;
-  background-color: rgb(137, 135, 135);
-  border: none;
-  padding: 2px;
-  padding-left: 2%;
-  padding-right: 2%;
-  color: black;
 }
-.footer_button:hover {
-  background-color: rgba(210, 210, 29, 0.8);
-}
-.footer_email{
-  padding-left: 2%;
-  padding-right: 2%;
-}
+
+
 .product {
   position: relative;
   padding: 20px;
   margin-top: 40px;
 }
 .product-category {
-  padding: 0 100px;
+  padding-bottom: 20px;
+  padding-left:  80px;
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 10px;  
@@ -392,14 +287,6 @@
 .nxt-btn:hover img {
   opacity: 1;
 }
-
-
-.product-image {
-  height: 210px;
-  margin: 20px; 
-  margin-top: 40px;
-}
-
 
 .product_point{
   margin-top: 80px;
